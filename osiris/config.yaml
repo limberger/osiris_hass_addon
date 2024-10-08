@@ -1,8 +1,8 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
-name: Example add-on
-version: "0.0.1"
+name: Osiris Hass Addon
+version: "0.0.2"
 slug: osiris
-description: Example add-on
+description: Communicate with osiris
 url: "https://github.com/limberger/osiris_hass_addon/tree/main/osiris"
 arch:
   - armhf
@@ -14,7 +14,7 @@ init: false
 map:
   - share:rw
 options:
-  message: "Hello world..."
+  message: "Hello from osiris..."
 schema:
   message: "str?"
 image: "limberger/osiris_hass_addon/{arch}-osiris_hass_addon"
