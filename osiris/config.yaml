@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Osiris Hass Addon
-version: "0.0.2"
+version: "0.0.3"
 slug: osiris
 description: Communicate with osiris
 url: "https://github.com/limberger/osiris_hass_addon/tree/main/osiris"
