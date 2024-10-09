@@ -17,4 +17,4 @@ options:
   message: "Hello from osiris..."
 schema:
   message: "str?"
-image: "limberger/osiris_hass_addon/{arch}-osiris_hass_addon"
+image: "limberger/{arch}-osiris_hass_addon"
